@@ -48,7 +48,10 @@ public class DataStorm {
         // 3. (Opcional) Si la temperatura es menor de 0, mostrar alerta de helada.
         System.out.println("Analizando " + dia + "..."); // Mensaje de control
         // ESCRIBE AQUÍ TUS "IF"
+        if(dia.equals("LUNES")){
 
+            System.out.println("Es lunes");
+        }
         // ----------------------------
     }
 }
